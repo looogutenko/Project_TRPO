@@ -3,8 +3,6 @@ using namespace std;
 
 int getWeekday()
 {
-	setlocale(LC_ALL, "ru");
-    
     string month;
     int day, time;
 
