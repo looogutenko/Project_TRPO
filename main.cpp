@@ -3,6 +3,7 @@ using namespace std;
 
 int getWeekday();
 void numToString(int num = 0);
+void getMaxandMin();
 
 int main()
 {	
@@ -19,7 +20,7 @@ int main()
         {
             case 1: getWeekday(); break;
             case 2: numToString(); break;
-            case 3: /*вызов модуля*/ break;
+            case 3: getMaxandMin(); break;
             case 4: /*вызов модуля*/ break;
             case 5: /*вызов модуля*/ break;
             case 0: break;
