@@ -6,15 +6,15 @@ void printHundreds(int decs, int dec) {
     switch (decs % 3) {
     case 0: {
         switch (dec) {
-        case 1: cout << "сто "; break;
-        case 2: cout << "двести "; break;
-        case 3: cout << "триста "; break;
-        case 4: cout << "четыреста "; break;
-        case 5: cout << "пятьсот "; break;
-        case 6: cout << "шестьсот "; break;
-        case 7: cout << "семьсот "; break;
-        case 8: cout << "восемьсот "; break;
-        case 9: cout << "девятьсот "; break;
+        case 1: cout << "??? "; break;
+        case 2: cout << "?????? "; break;
+        case 3: cout << "?????? "; break;
+        case 4: cout << "????????? "; break;
+        case 5: cout << "??????? "; break;
+        case 6: cout << "???????? "; break;
+        case 7: cout << "??????? "; break;
+        case 8: cout << "????????? "; break;
+        case 9: cout << "????????? "; break;
         default: break;
         }
         break;
@@ -23,36 +23,36 @@ void printHundreds(int decs, int dec) {
         switch (dec) {
         case 1: {
             if (decs == 4) {
-                cout << "одна ";
+                cout << "???? ";
             }
             else {
-                cout << "один ";
+                cout << "???? ";
             }
             break;
         }
-        case 2: cout << "два "; break;
-        case 3: cout << "три "; break;
-        case 4: cout << "четыре "; break;
-        case 5: cout << "пять "; break;
-        case 6: cout << "шесть "; break;
-        case 7: cout << "семь "; break;
-        case 8: cout << "восемь "; break;
-        case 9: cout << "девять "; break;
+        case 2: cout << "??? "; break;
+        case 3: cout << "??? "; break;
+        case 4: cout << "?????? "; break;
+        case 5: cout << "???? "; break;
+        case 6: cout << "????? "; break;
+        case 7: cout << "???? "; break;
+        case 8: cout << "?????? "; break;
+        case 9: cout << "?????? "; break;
         default: break;
         }
         break;
     }
     case 2: {
         switch (dec) {
-        case 1: cout << "десять "; break;
-        case 2: cout << "двадцать "; break;
-        case 3: cout << "тридцать "; break;
-        case 4: cout << "сорок "; break;
-        case 5: cout << "пятьдесят "; break;
-        case 6: cout << "шестьдесят "; break;
-        case 7: cout << "семьдесят "; break;
-        case 8: cout << "восемьдесят "; break;
-        case 9: cout << "девяносто "; break;
+        case 1: cout << "?????? "; break;
+        case 2: cout << "???????? "; break;
+        case 3: cout << "???????? "; break;
+        case 4: cout << "????? "; break;
+        case 5: cout << "????????? "; break;
+        case 6: cout << "?????????? "; break;
+        case 7: cout << "????????? "; break;
+        case 8: cout << "??????????? "; break;
+        case 9: cout << "????????? "; break;
         default: break;
         }
         break;
@@ -65,25 +65,25 @@ void printTriple(int decs, int dec) {
     switch (triple) {
     case 1: {
         if (dec == 1) {
-            cout << "тысяча ";
+            cout << "?????? ";
         }
         else if (dec >= 2 && dec <= 4) {
-            cout << "тысячи ";
+            cout << "?????? ";
         }
         else {
-            cout << "тысяч ";
+            cout << "????? ";
         }
         break;
     }
     case 2: {
         if (dec == 1) {
-            cout << "миллион ";
+            cout << "??????? ";
         }
         else if (dec >= 2 && dec <= 4) {
-            cout << "миллиона ";
+            cout << "???????? ";
         }
         else {
-            cout << "миллионов ";
+            cout << "????????? ";
         }
         break;
     }
@@ -93,13 +93,13 @@ void printTriple(int decs, int dec) {
 void numToString(int num = 0) {
     int decs = 0;
     if (num == 0) {
-        cout << "Введите число (до миллиарда): "; cin >> num;
+        cout << "??????? ????? (?? ?????????): "; cin >> num;
     }
     while (num / (int)pow(10, decs) > 0) {
         decs++;
     }
     if (num == 0) {
-        cout << "ноль";
+        cout << "????";
         decs = 0;
     }
     while (decs > 0) {
