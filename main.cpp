@@ -21,9 +21,9 @@ int main()
         {
             case 1: getWeekday(); break;
             case 2: numToString(); break;
-            case 3: getMaxandMin(); break;
-            case 4: modyl(); break;
-            case 5: /*вызов модуля*/ break;
+            case 3:  break;
+            case 4:  break;
+            case 5:  break;
             case 0: break;
             default: cout << "Вы ошиблись с номером." << endl;
         }
