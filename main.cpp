@@ -10,10 +10,10 @@ int main()
     setlocale(LC_ALL, "Russian");
     
     //cout << "" << endl;
-    //????? ???????
+    //вызов функции
     int alg;
     do{
-        cout << "??????? ????? ?????????:" << endl;
+        cout << "Введите номер алгоритма:" << endl;
         cin >> alg;
 
         switch (alg)
@@ -24,7 +24,7 @@ int main()
             case 4:  break;
             case 5:  break;
             case 0: break;
-            default: cout << "?? ???????? ? ???????." << endl;
+            default: cout << "Вы ошиблись с номером." << endl;
         }
     } while(alg != 0);
     
