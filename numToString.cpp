@@ -30,7 +30,13 @@ void printHundreds(int decs, int dec) {
             }
             break;
         }
-        case 2: cout << "два "; break;
+        case 2: if (decs == 4) {
+                cout << "две ";
+            }
+            else {
+                cout << "два ";
+            }
+            break;
         case 3: cout << "три "; break;
         case 4: cout << "четыре "; break;
         case 5: cout << "пять "; break;
