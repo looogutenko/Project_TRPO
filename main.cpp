@@ -3,8 +3,7 @@ using namespace std;
 
 void getWeekday();
 void numToString(int num = 0);
-void getMaxandMin();
-void modyl();
+
 
 int main()
 {	
