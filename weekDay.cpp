@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int getWeekday()
+void getWeekday()
 {
     string month;
     int day, time;
@@ -44,5 +44,4 @@ int getWeekday()
         case 0: cout << "воскресенье" << endl; 
     }    
 	
-    return 0;
 }

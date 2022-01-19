@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int getWeekday();
+void getWeekday();
 void numToString(int num = 0);
 void getMaxandMin();
 void modyl();
@@ -27,7 +27,7 @@ int main()
             case 0: break;
             default: cout << "Вы ошиблись с номером." << endl;
         }
-    }while(alg != 0);
+    } while(alg != 0);
     
     return 0;
 }
