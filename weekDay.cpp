@@ -6,7 +6,7 @@ void getWeekday()
     string month;
     int day, time;
 
-    cout << "¬ведите число мес€ца:" << endl;
+    cout << "¬ведите число мес€ца (от 1 до 31):" << endl;
     cin >> day;
     cout << "¬ведите мес€ц:" << endl;
     cin >> month;
