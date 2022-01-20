@@ -6,6 +6,8 @@ void min()
   double x, min = 9999, max = -9999;
   int minIndex, maxIndex;
 
+  cout << "Ââåäèòå 5 öåëûõ ÷èñåë (ÇÀÏßÒÓÞ ÍÅ ÂÂÎÄÈÒÜ!!!):" << endl;
+
   for (int i = 1; i <= 5; i++)
   {
     cin >> x;
