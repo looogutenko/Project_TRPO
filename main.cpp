@@ -20,7 +20,7 @@ int main()
         {
             case 1: getWeekday(); break;
             case 2: numToString(); break;
-            case 3: mit();  break;
+            case 3: min();  break;
             case 4:  break;
             case 5:  break;
             case 0: break;
