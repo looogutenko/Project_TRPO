@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+void min();
 void getWeekday();
 void numToString(int num = 0);
 
@@ -10,21 +10,21 @@ int main()
     setlocale(LC_ALL, "Russian");
     
     //cout << "" << endl;
-    //вызов функции
+    //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     int alg;
     do{
-        cout << "Введите номер алгоритма:" << endl;
+        cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ:" << endl;
         cin >> alg;
 
         switch (alg)
         {
             case 1: getWeekday(); break;
             case 2: numToString(); break;
-            case 3:  break;
+            case 3: mit();  break;
             case 4:  break;
             case 5:  break;
             case 0: break;
-            default: cout << "Вы ошиблись с номером." << endl;
+            default: cout << "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ." << endl;
         }
     } while(alg != 0);
     

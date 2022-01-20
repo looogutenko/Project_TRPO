@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void dop3()
+void min()
 {
   double x, min = 9999, max = -9999;
   int minIndex, maxIndex;
